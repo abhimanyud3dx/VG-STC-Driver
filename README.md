@@ -1,6 +1,6 @@
-## Samsung TV Camera Firmware Loader (Windows)
+# Samsung TV Camera Firmware Loader (Windows)
 
-# Download the Zip file "VG-STC-FWLoader v1.0.zip"
+## Download the Zip file "VG-STC-FWLoader v1.0.zip"
 
 Supported Cameras:
 - VG-STC2000
@@ -23,4 +23,4 @@ Credits:
 - Based on Ondrej Zary’s original Linux firmware loader
 - Windows version by Abhimanyu
 
-# source code : https://github.com/abhimanyud3dx/samsung-tvcam-fwloader
+## source code : https://github.com/abhimanyud3dx/samsung-tvcam-fwloader
