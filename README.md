@@ -1,11 +1,26 @@
-# VG-STC-Driver
-This repo is to house the source vode for a custom Windows Universal User Mode Driver to support the Samsung VG-STC5000 camera on Windows OS.
+## Samsung TV Camera Firmware Loader (Windows)
 
-## The Need
-The VG-STC5000 video camera is a high quality device design for use with a Smart TV, but it is no longer supported. I felt the need to write my own driver so I could use such a great camera on Windows devices and not simply be constrained to using the Smart TV.
+# Download the Zip file "VG-STC-FWLoader v1.0.zip"
 
-## To Do
-1. This device works on Samsung TV which runs on Tizen OS and this OS is based on Linux, now keeping that in mind I am looking into the source of Tizen OS to find the driver for this device and possibly port it over to Linux and Windows.
+Supported Cameras:
+- VG-STC2000
+- VG-STC3000
+- VG-STC4000
+- VG-STC5000
 
-## Effort was made, but was unable to create a driver for the same. I will continue working on a driver; meanwhile, we made a C++ program to load the firmware in Windows.
-# Made progress here: https://github.com/abhimanyud3dx/samsung-tvcam-fwloader
+Instructions:
+1. Plug your Samsung camera into a USB port.
+2. Run FirmwareLoader.exe as Administrator.
+3. Firmware will automatically upload if a supported camera is detected.
+
+Make sure the 'firmware' folder is in the same directory as the EXE.
+
+Requirements:
+- Windows
+- libusb-1.0.dll (included)
+
+Credits:
+- Based on Ondrej Zary’s original Linux firmware loader
+- Windows version by Abhimanyu
+
+# source code : https://github.com/abhimanyud3dx/samsung-tvcam-fwloader
