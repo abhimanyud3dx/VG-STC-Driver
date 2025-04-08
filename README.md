@@ -10,8 +10,9 @@ Supported Cameras:
 
 Instructions:
 1. Plug your Samsung camera into a USB port.
-2. Run FirmwareLoader.exe as Administrator.
-3. Firmware will automatically upload if a supported camera is detected.
+2. Install driver from https://zadig.akeo.ie/ for all the USB Id that starts with 04e8 
+3. Run FirmwareLoader.exe as Administrator.
+4. Firmware will automatically upload if a supported camera is detected.
 
 Make sure the 'firmware' folder is in the same directory as the EXE.
 
