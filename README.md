@@ -10,9 +10,11 @@ Supported Cameras:
 
 Instructions:
 1. Plug your Samsung camera into a USB port.
-2. Install driver from https://zadig.akeo.ie/ for all the USB Id that starts with 04e8 
-3. Run FirmwareLoader.exe as Administrator.
-4. Firmware will automatically upload if a supported camera is detected.
+2. Install the driver from https://zadig.akeo.ie/ for all the USB Id that starts with 04e8 
+3. After extracting the files from the "VG-STC-FWLoader v1.0.zip", run FirmwareLoader.exe as Administrator.
+4. The message should show that your camera is detected.
+5. Firmware will automatically upload if a supported camera is detected.
+6. Now use the application that requires Camera, like Windows Camera App or Zoom, and it should detect both the Mic and Camera.
 
 Make sure the 'firmware' folder is in the same directory as the EXE.
 
